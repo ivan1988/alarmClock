@@ -1,0 +1,16 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   	android:background="#3a3a3a"
+    class="com.ontimealarm.alarmclock.FavouritesFragment"  >
+
+    <LinearLayout 
+	    android:id="@+id/favouriteAlarmXML"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+		android:orientation="vertical"
+	    class="com.ontimealarm.alarmclock.SetAlarmFragment"  >
+	</LinearLayout>
+
+</ScrollView>

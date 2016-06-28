@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#3a3a3a"
+    class="com.ontimealarm.alarmclock.BarSetAlarmFragment" >
+       
+    <TimePicker 
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-32dp"
+        android:background="#afafaf"/>
+	
+    <LinearLayout
+        android:id="@+id/set_time_btns"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/alarm_time_remaining"
+        android:orientation="vertical"
+        android:background="#000"
+        android:layout_toEndOf="@+id/timePicker" >
+    <ImageButton 
+        android:id="@+id/alarmSetButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"	
+        android:layout_weight="1" 
+        android:layout_marginTop="1dp" 
+        android:layout_marginLeft="2dp"     
+        android:layout_marginRight="2dp"          
+        android:src="@drawable/ic_action_add_alarm"
+        android:contentDescription="@string/alarmSetButton"/>
+    
+    <ImageButton 
+        android:id="@+id/favourite_alarms"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"	
+        android:layout_weight="1"
+        android:layout_marginTop="2dp" 
+        android:layout_marginLeft="2dp"     
+        android:layout_marginRight="2dp"   
+        android:src="@drawable/ic_action_important_on"
+        android:contentDescription="@string/favourites_button"/>
+    </LinearLayout>
+         
+    <TextView 
+        android:id="@+id/alarm_time_remaining"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_alignBottom="@+id/timePicker"
+        android:background="#000"
+		android:textColor="#afafaf"			
+        android:text="@string/alarm_time_remaining"/>	    
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="app_name">Alarm Force</string>
+    <string name="menu_name">Menu</string>
+    <string name="alarm_clock">Alarm Clock</string>
+    <string name="settings_activity">Settings</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="action_home">Set Alarm</string>
+    <string name="title_activity_about">About</string>
+    <string name="workingAlarm_activity">Alarm Going Off</string>
+    <string name="title_activity_working_alarm">Alarm Clock</string>
+    <string name="title_activity_alarm_on">Alarm On</string>
+    <string name="alarm_on">Alarm On</string>
+    <string name="alarm_off_button">OFF</string>
+    <string name="lowBrightness">Low Brightness</string>
+    <string name="mediumBrightness">Medium Brightness</string>
+    <string name="highBrightness">High Brightness</string>
+    <string name="autoBrightness">Auto Brightness</string>
+    <string name="snoozeBtn">SNOOZE</string>
+    <string name="action_bar_about">Application Settings</string>
+    <string name="action_bar_settings">About Application</string>
+    <string name="alarmSetButton">Set Alarm</string>  
+    <string name="alarm_time_remaining">0 hours and 0 minutes from now</string>  
+    <string name="pref_clock_format">24 Hour Clock</string>
+    <string name="pref_volume_ascending">Volume Ascending</string>
+    <string name="pref_vibrate_first">Ascending Vibration</string>
+    <string name="sum_vibrate_first">prior to alarm</string>
+    <string name="pref_cat_preferences">Alarm Preferences</string>
+    <string name="pref_snooze_btn">Snooze</string>
+    <string name="pref_snooze_duration">Select Snooze Duration</string>
+    <string name="pref_distance">Select Distance</string>
+    <string name="pref_ringtone">Ringtone</string>
+    <string name="pref_set_ringtone">Set Ringtone</string>
+    <string name="pref_vibrate">Vibrate</string>
+    <string name="reset_button">Reset The Application</string>
+    <string name="reset_pref">Reset to factory setting</string>
+    <string name="title_activity_favourites">FavouritesActivity</string>
+    <string name="favourites_button">Favourite Alarms</string>
+    <string name="yes_btn">Yes</string>
+    <string name="no">No</string>
+    
+    <string name="alarm_instructions_1">For the alarm to go off you must:</string>
+    <string name="alarm_instructions_2">Keep the application open</string>
+    <string name="alarm_instructions_3">Walk away from your current location</string>
+    
+    <string name="disclaimer">Alarm Force uses information we collect to operate, maintain and provide you the features and functionality of the application, to analyse how the application is used, diagnose service or technical problems, maintain security, personalise content.
+		You provide us information about the use of the app and not yourself. The information we collect is the time you set your alarms for, if you use; favourites, volume ascending, vibrate, vibrate first options, the clock format, the set distance and, snooze and its duration.
+		Please press Ok to agree and Cancel to disagree
+	</string>
+	
+    <string name="about_instructions_1">This alarm clock is specifically designed to help you get out of bed in the morning, so there is no off button. The only way to turn the alarm off is to get out of bed.</string>
+    <string name="about_instructions_2">To change time, swipe up and down on the time in the grey area, or click on it for manual input, and then click the green icon to its right, to set the alarm.</string>
+    <string name="about_instructions_3">To edit existing alarm click on the pen icon</string>
+    <string name="about_instructions_4">To edit enable/disable an existing alarm click on the clock icon to the right of the alarm</string>
+    <string name="about_instructions_5">To add alarm to favourites click on the star and click on the gold star to remove</string>
+    <string name="about_instructions_6">To access favourite alarms click on the gold star underneath alarm set icon</string>
+    <string name="about_instructions_7">To change settings click on the icon in the far right corner</string>
+    <string name="about_instructions_8">You can always return to the home screen by clicking the applications icon</string>    
+</resources>

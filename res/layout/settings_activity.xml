@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alarmForce.alarmclock.SettingsActivity"
+    android:orientation="vertical">
+	
+   <fragment
+        android:id="@+id/set_alarm_bar"
+        android:name="com.alarmForce.alarmclock.BarSetAlarmFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+		
+     <fragment
+    	android:id="@+id/pref_frag"
+   		android:name="com.alarmForce.alarmclock.SettingsFragment"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@+id/set_alarm_bar"
+    	android:layout_above="@+id/brightness_bar"/>
+    
+    <fragment
+        android:id="@+id/brightness_bar"
+        android:name="com.alarmForce.alarmclock.BarBrightnessFragment"  
+        android:layout_alignParentBottom="true"    
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

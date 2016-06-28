@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_cat_preferences">
+	    <SwitchPreference 
+			android:key="clockFormatPref"
+		    android:title="@string/pref_clock_format"
+	        android:clickable="true"
+	        android:defaultValue="false"/>
+	    
+	    <ListPreference 
+	        android:key="distanceListPref"
+	        android:title="@string/pref_distance"
+	        android:entries="@array/distanceEntries"
+	        android:entryValues="@array/distanceValues"/>  
+    </PreferenceCategory>
+    
+	<PreferenceCategory android:title="@string/pref_ringtone">	    
+	    <SwitchPreference 
+	        android:key="volumeAscendingPref"
+	        android:title="@string/pref_volume_ascending"
+	        android:clickable="true"
+	        android:defaultValue="true"/>	
+	    
+	    <RingtonePreference android:key="ringtoneSelectPref"
+            android:title="@string/pref_set_ringtone"
+            android:ringtoneType="all"
+            android:showDefault="true"
+            android:showSilent="false"/>
+	</PreferenceCategory>
+	
+	<PreferenceCategory android:title="@string/pref_vibrate">	    
+	    <SwitchPreference 
+	        android:key="vibratePref"
+	        android:title="@string/pref_vibrate"
+	        android:clickable="true"
+	        android:defaultValue="true"/>
+	    	    
+	    <SwitchPreference 
+	        android:key="vibrateFirstPref"
+	        android:title="@string/pref_vibrate_first"
+	        android:clickable="true"
+	        android:defaultValue="true"
+	        android:summary="@string/sum_vibrate_first"/>    
+	</PreferenceCategory>
+	
+	<PreferenceCategory android:title="@string/pref_snooze_btn">	    	    
+	    <SwitchPreference 
+	        android:key="snoozeBtnPref"
+	        android:title="@string/pref_snooze_btn"
+	        android:clickable="true"
+	        android:defaultValue="true"/>
+	    <ListPreference
+	    	android:key="snoozeDurationPref"
+	        android:title="@string/pref_snooze_duration"
+	        android:entries="@array/snoozeDurationEntries"
+	        android:entryValues="@array/snoozeDurationValues"/>
+	    
+	</PreferenceCategory>
+		
+	<PreferenceCategory android:title="@string/reset_button">
+	    <ListPreference
+	    	android:key="resetPref"
+	        android:title="@string/reset_pref"
+	        android:entries="@array/resetEntries"
+	        android:entryValues="@array/resetValues"/>
+	</PreferenceCategory>
+	<PreferenceCategory>
+	</PreferenceCategory>    
+</PreferenceScreen>
+

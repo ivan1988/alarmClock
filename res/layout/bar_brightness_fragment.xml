@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/brightnessBarXML"
+    android:orientation="horizontal"
+    android:background="#000000"
+    class="com.ontimealarm.alarmclock.BarBrightnessFragment" >  
+        <ImageButton
+            android:id="@+id/lowBrightness"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_action_brightness_low"
+            android:contentDescription="@string/lowBrightness" />
+        <ImageButton
+            android:id="@+id/mediumBrightness"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_brightness_medium"
+            android:contentDescription="@string/mediumBrightness" />
+        <ImageButton
+            android:id="@+id/highBrightness"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_brightness_high"
+            android:contentDescription="@string/autoBrightness" />
+        
+        <ImageButton
+            android:id="@+id/autoBrightness"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_brightness_auto"
+            android:contentDescription="@string/autoBrightness" />   
+</LinearLayout>
